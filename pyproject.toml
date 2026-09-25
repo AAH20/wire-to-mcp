@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wire-to-mcp"
+version = "0.1.0"
+description = "Autonomous MCP Server Synthesizer from Passive Wiretap & Network Traffic"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Ahmed Hassan", email = "ahmed@example.com" }
+]
+keywords = [
+    "mcp",
+    "model-context-protocol",
+    "wiretap",
+    "code-generator",
+    "claude-opus-5-5",
+    "gpt-6-astra",
+    "ai-agents"
+]
+dependencies = []
+
+[project.scripts]
+wire-to-mcp = "wire_to_mcp.cli:main"
